@@ -57,14 +57,16 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/rsz_portland.jpg') no-repeat top center ;
+  background: url('images/rsz_background.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
 }
+
 header {
   line-height: 1.5;
 }
+
 header .profile-image {
   margin-top: 50px;
   width: 150px;
@@ -73,9 +75,16 @@ header .profile-image {
   border: 3px solid white;
   transition: all .5s;
 }
+
+.headerText {
+  padding-top: 5%;
+  color: #fff;
+}
+
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
+
 .tag {
   background-color: #efefef;
   color: black;
@@ -118,6 +127,20 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #0399ff;
+}
+
+.container {
+  width:100%;
+  margin:0 auto;
+  padding:100px 20px;
+}
+
+.small-width {
+  width:980px;
+}
+
+#I-am-good-at {
+  background-color:#FFF;
 }
 
 footer {
@@ -167,6 +190,7 @@ a.social:hover {
   clear: both;
 }
 
+
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   
@@ -200,6 +224,5 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
-
 }
 
